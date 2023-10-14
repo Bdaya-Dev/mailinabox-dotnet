@@ -1,0 +1,15 @@
+# openapi-generator-cli generate -c config.yml
+# we manage a local copy of the spec
+inputSpec: api/openapi.yaml
+generatorName: csharp
+targetFramework: net7.0
+packageName: Bdaya.MailInABox
+releaseNote: Initial release
+nullableReferenceTypes: true
+licenseId: MIT
+library: generichost
+hideGenerationTimestamp: true
+disallowAdditionalPropertiesIfNotPresent: false
+conditionalSerialization: true
+useCompareNetObjects: true
+# additionalProperties:
